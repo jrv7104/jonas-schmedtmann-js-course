@@ -142,5 +142,7 @@
 const firstName = 'Jason';
 const job = 'Retailer';
 const birthYear = 1986;
+const year = 2037;
 
-const jason = ""
+const jason = "I'm " + firstName + ', a ' + (year - birthYear) + 'year old ' + job + '!';
+console.log(jason);
