@@ -146,3 +146,7 @@ const year = 2037;
 
 const jason = "I'm " + firstName + ', a ' + (year - birthYear) + 'year old ' + job + '!';
 console.log(jason);
+
+//Template literals
+const jasonNew = `I'm ${firstName} a ${year - birthYear} year old ${job}!`;
+console.log(jasonNew)
