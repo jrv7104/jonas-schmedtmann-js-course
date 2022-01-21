@@ -43,20 +43,21 @@
 // console.log(typeof null);
 
 
-// const country = "United States";
-// const continent = "North America";
-// let population = 320000000;
-// const isIsland = false;
-// const language = "English";
-// console.log(typeof isIsland);
-// console.log(typeof population);
-// console.log(typeof country);
-// console.log(typeof language);
+const country = "United States";
+const continent = "North America";
+let population = 320;
+const isIsland = false;
+const language = "English";
+console.log(typeof isIsland);
+console.log(typeof population);
+console.log(typeof country);
+console.log(typeof language);
 
-// console.log(language);
-// console.log(country);
-// console.log(continent);
-// console.log(population);
+console.log(language);
+console.log(country);
+console.log(continent);
+console.log(population);
+
 
 // console.log(population / 2);
 // population++;
@@ -64,8 +65,12 @@
 // console.log(population > 6);
 // console.log(population < 33);
 
+//// Old way of putting a string together
 // const description = country + ' is in ' + continent + ', and its ' + population + ' million people speak ' + language;
-// console.log(description);
+
+//Template literal way of putting a string together
+const description = `${country} is in ${continent} and its ${population} million people speak ${language}`;
+console.log(description);
 // let age = 30;
 // age = 31;
 
