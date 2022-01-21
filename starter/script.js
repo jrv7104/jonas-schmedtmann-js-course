@@ -138,3 +138,7 @@
 // console.log(markBMI2, johnBMI2, markHigherBMI2);
 // console.log(markBMI1 > johnBMI1);
 // console.log(markBMI2 > johnBMI2);
+
+const firstName = 'Jason';
+const job = 'Retailer';
+const birthYear = 1986'
