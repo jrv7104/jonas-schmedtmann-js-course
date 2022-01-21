@@ -141,4 +141,6 @@
 
 const firstName = 'Jason';
 const job = 'Retailer';
-const birthYear = 1986'
+const birthYear = 1986;
+
+const jason = ""
