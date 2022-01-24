@@ -144,23 +144,33 @@ console.log(description);
 // console.log(markBMI1 > johnBMI1);
 // console.log(markBMI2 > johnBMI2);
 
-const firstName = 'Jason';
-const job = 'Retailer';
-const birthYear = 1986;
-const year = 2037;
+// const firstName = 'Jason';
+// const job = 'Retailer';
+// const birthYear = 1986;
+// const year = 2037;
 
-const jason = "I'm " + firstName + ', a ' + (year - birthYear) + 'year old ' + job + '!';
-console.log(jason);
+// const jason = "I'm " + firstName + ', a ' + (year - birthYear) + 'year old ' + job + '!';
+// console.log(jason);
 
-//Template literals
-const jasonNew = `I'm ${firstName} a ${year - birthYear} year old ${job}!`;
-console.log(jasonNew)
-console.log(`Just a regular string...`);
+// //Template literals
+// const jasonNew = `I'm ${firstName} a ${year - birthYear} year old ${job}!`;
+// console.log(jasonNew)
+// console.log(`Just a regular string...`);
 
-console.log('String with \n\
-multiple \n\
-lines');
+// console.log('String with \n\
+// multiple \n\
+// lines');
 
-console.log(`String
-multiple
-lines`);
+// console.log(`String
+// multiple
+// lines`);
+
+//if/else statements
+const age = 15;
+
+if(age >= 18) {
+    console.log('Sarah can start driving license 🚗');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
