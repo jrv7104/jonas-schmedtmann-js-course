@@ -45,13 +45,20 @@
 
 const country = "United States";
 const continent = "North America";
-let population = 320;
+let population = 330000000;
 const isIsland = false;
 const language = "English";
 console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+
+//if/else activity
+// if(population > 33000000){
+//     console.log(`${country}'s population is above average.`);
+// } else {
+//     console.log(`${country}'s population is below average.`);
+// }
 
 console.log(language);
 console.log(country);
