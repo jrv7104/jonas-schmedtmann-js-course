@@ -225,7 +225,14 @@ console.log(description);
 // console.log(markBMI1 > johnBMI1);
 // console.log(markBMI2 > johnBMI2);
 
-//type conversion and coersion
-
+//type conversion
 const inputYear = '1991';
-console.log(inputYear + 18);
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jason'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//type coersion
