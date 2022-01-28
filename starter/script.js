@@ -224,3 +224,5 @@ console.log (`John's BMI (${johnBMI1}) is higher than Mark's (${markBMI1})!`);
 // console.log(markBMI2, johnBMI2, markHigherBMI2);
 // console.log(markBMI1 > johnBMI1);
 // console.log(markBMI2 > johnBMI2);
+
+//type conversion and coersion
