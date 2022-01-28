@@ -173,47 +173,47 @@ console.log(description);
 // lines`);
 
 //if/else statements
-const age = 15;
+// const age = 15;
 
-if(age >= 18) {
-    console.log('Sarah can start driving license 🚗');
-} else {
-    const yearsLeft = 18 - age;
-    console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
-}
+// if(age >= 18) {
+//     console.log('Sarah can start driving license 🚗');
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+// }
 
-const birthYear = 2012;
+// const birthYear = 2012;
 
-let century;
-if (birthYear <= 2000) {
-    century = 20;
-} else {
-    century = 21;
-}
-console.log(century);
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+// console.log(century);
 
-//coding challenge 2
+// //coding challenge 2
 
-const markWeight1 = 78;
-const markHeight1 = 1.69;
-const johnWeight1 = 92;
-const johnHeight1 = 1.95;
-const markBMI1 = markWeight1 / (markHeight1 * markHeight1);
-const johnBMI1 = johnWeight1 / (johnHeight1 * johnHeight1);
-// const markHigherBMI1 = markBMI1 > johnBMI1;
-// console.log(markBMI1, johnBMI1, markHigherBMI1);
+// const markWeight1 = 78;
+// const markHeight1 = 1.69;
+// const johnWeight1 = 92;
+// const johnHeight1 = 1.95;
+// const markBMI1 = markWeight1 / (markHeight1 * markHeight1);
+// const johnBMI1 = johnWeight1 / (johnHeight1 * johnHeight1);
+// // const markHigherBMI1 = markBMI1 > johnBMI1;
+// // console.log(markBMI1, johnBMI1, markHigherBMI1);
 
-if (markBMI1 > johnBMI1) {
-    console.log(`Mark's BMI is higher than John's.`);
-} else {
-    console.log(`John's BMI is higher than Mark's.`);
-}
+// if (markBMI1 > johnBMI1) {
+//     console.log(`Mark's BMI is higher than John's.`);
+// } else {
+//     console.log(`John's BMI is higher than Mark's.`);
+// }
 
-if (markBMI1 > johnBMI1) {
-console.log (`Mark's BMI (${markBMI1}) is higher than John's (${johnBMI1})!`);
-} else {
-console.log (`John's BMI (${johnBMI1}) is higher than Mark's (${markBMI1})!`);
-}
+// if (markBMI1 > johnBMI1) {
+// console.log (`Mark's BMI (${markBMI1}) is higher than John's (${johnBMI1})!`);
+// } else {
+// console.log (`John's BMI (${johnBMI1}) is higher than Mark's (${markBMI1})!`);
+// }
 // const markWeight2 = 95;
 // const markHeight2 = 1.88;
 // const johnWeight2 = 85;
@@ -226,3 +226,6 @@ console.log (`John's BMI (${johnBMI1}) is higher than Mark's (${markBMI1})!`);
 // console.log(markBMI2 > johnBMI2);
 
 //type conversion and coersion
+
+const inputYear = '1991';
+console.log(inputYear + 18);
