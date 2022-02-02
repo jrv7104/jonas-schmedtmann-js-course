@@ -295,8 +295,7 @@ console.log(description);
 const numNeighbours = prompt('How many neighbours do you have?');
 if(numNeighbours == 1){
     console.log('You have one border.');
-} else if(numNeighbours > 1){
+} else if(numNeighbours > 1) {
     console.log('More than one border.');
-} else(numNeighbours = 0){
+} else(numNeighbours = 0)
     console.log('No border.');
-}
