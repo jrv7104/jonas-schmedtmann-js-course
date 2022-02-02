@@ -297,5 +297,6 @@ if(numNeighbours == 1){
     console.log('You have one border.');
 } else if(numNeighbours > 1) {
     console.log('More than one border.');
-} else(numNeighbours = 0)
+} else {
     console.log('No border.');
+}
