@@ -287,3 +287,7 @@ if(favorite === 23) {
 else {
     console.log('That is a shame');
 }
+
+//different operator
+if(favorite !== 23) console.log('Why not 23?');
+
