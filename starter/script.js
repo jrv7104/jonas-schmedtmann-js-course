@@ -292,11 +292,11 @@ console.log(description);
 // if(favorite !== 23) console.log('Why not 23?');
 
 //equality operator exercise
-const numNeighbours = prompt('How many neighbours do you have?');
-if(numNeighbours == 1){
-    console.log('You have one border.');
-} else if(numNeighbours > 1) {
-    console.log('More than one border.');
-} else {
-    console.log('No border.');
-}
+// const numNeighbours = Number(prompt('How many neighbours do you have?'));
+// if(numNeighbours === 1){
+//     console.log('You have one border.');
+// } else if(numNeighbours > 1) {
+//     console.log('More than one border.');
+// } else {
+//     console.log('No border.');
+// }
