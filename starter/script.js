@@ -291,3 +291,8 @@ else {
 //different operator
 if(favorite !== 23) console.log('Why not 23?');
 
+//equality operator exercise
+const numNeighbours = prompt('How many neighbours do you have?');
+if(numNeighbors == 1){
+    console.log('You have one border.');
+}
