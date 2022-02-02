@@ -267,6 +267,8 @@ console.log(description);
 // }
 
 //equality operator == and ===;
-const age = 18;
+const age = '18';
 //strict equality operator
-if(age === 18) console.log('You just became an adult!');
+if(age === 18) console.log('You just became an adult! (strict)');
+
+if(age == 18) console.log('You just became an adult! (loose)' );
