@@ -266,3 +266,5 @@ console.log(description);
 //     console.log('Height is UNDEFINED')
 // }
 
+//equality operator == and ===;
+const age = 18;
