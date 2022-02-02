@@ -267,32 +267,36 @@ console.log(description);
 // }
 
 //equality operator == and ===;
-const age = '18';
-//strict equality operator
-if(age === 18) console.log('You just became an adult! (strict)');
+// const age = '18';
+// //strict equality operator
+// if(age === 18) console.log('You just became an adult! (strict)');
 
-if(age == 18) console.log('You just became an adult! (loose)' );
+// if(age == 18) console.log('You just became an adult! (loose)' );
 
-const favorite = Number(prompt("What is your favorite number?"));
-console.log(favorite);
-console.log(typeof favorite);
+// const favorite = Number(prompt("What is your favorite number?"));
+// console.log(favorite);
+// console.log(typeof favorite);
 
-if(favorite === 23) {
-    console.log('Cool! 23 is an amazing number!');
-} else if(favorite === 7) {
-    console.log('7 is also a cool number')
-} else if(favorite === 9) {
-    console.log('9 is also a cool number');
-}
-else {
-    console.log('That is a shame');
-}
+// if(favorite === 23) {
+//     console.log('Cool! 23 is an amazing number!');
+// } else if(favorite === 7) {
+//     console.log('7 is also a cool number')
+// } else if(favorite === 9) {
+//     console.log('9 is also a cool number');
+// }
+// else {
+//     console.log('That is a shame');
+// }
 
-//different operator
-if(favorite !== 23) console.log('Why not 23?');
+// //different operator
+// if(favorite !== 23) console.log('Why not 23?');
 
 //equality operator exercise
 const numNeighbours = prompt('How many neighbours do you have?');
-if(numNeighbors == 1){
+if(numNeighbours == 1){
     console.log('You have one border.');
+} else if(numNeighbours > 1){
+    console.log('More than one border.');
+} else(numNeighbours = 0){
+    console.log('No border.');
 }
