@@ -268,3 +268,4 @@ console.log(description);
 
 //equality operator == and ===;
 const age = 18;
+if(age === 18) console.log('You just became an adult!');
