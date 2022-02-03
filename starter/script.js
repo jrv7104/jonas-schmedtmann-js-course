@@ -301,4 +301,4 @@ console.log(description);
 //     console.log('No border.');
 // }
 
-//boolean logic
+//boolean logic/logic operators
