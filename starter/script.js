@@ -300,3 +300,5 @@ console.log(description);
 // } else {
 //     console.log('No border.');
 // }
+
+//boolean logic
