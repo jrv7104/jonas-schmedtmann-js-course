@@ -337,6 +337,26 @@
 // }
 
 //Coding challenge 3
+//Test Data
+// const dolphinsScore = 96 + 108 + 89;
+// const koalasScore = 88 + 91 + 110;
+// const dolphinsAverage = dolphinsScore / 3;
+// const koalasAverage = koalasScore / 3;
+// console.log(dolphinsScore);
+// console.log(koalasScore);
+// console.log(dolphinsAverage);
+// console.log(koalasAverage);
+
+// if(dolphinsAverage > koalasAverage && dolphinsAverage > 100){
+//     console.log('Dolphins win!');
+// } else if(koalasAverage > dolphinsAverage && koalasAverage > 100) {
+//     console.log('Koalas win!');
+// } else {
+//     console.log('No winner!');
+// }
+
+//Test data 1
+
 const dolphinsScore = 96 + 108 + 89;
 const koalasScore = 88 + 91 + 110;
 const dolphinsAverage = dolphinsScore / 3;
