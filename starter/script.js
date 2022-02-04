@@ -302,3 +302,7 @@ console.log(description);
 // }
 
 //boolean logic/logic operators
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision);
