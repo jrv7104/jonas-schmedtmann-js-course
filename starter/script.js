@@ -393,3 +393,5 @@
 // else {
 //     console.log('No winner!');
 // }
+
+//Switch statement
