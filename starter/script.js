@@ -356,20 +356,40 @@
 // }
 
 //Test data 1
+// const dolphinsScore = 97 + 112 + 101;
+// const koalasScore = 109 + 95 + 123;
+// const dolphinsAverage = dolphinsScore / 3;
+// const koalasAverage = koalasScore / 3;
+// console.log(dolphinsScore);
+// console.log(koalasScore);
+// console.log(dolphinsAverage);
+// console.log(koalasAverage);
 
-const dolphinsScore = 96 + 108 + 89;
-const koalasScore = 88 + 91 + 110;
-const dolphinsAverage = dolphinsScore / 3;
-const koalasAverage = koalasScore / 3;
-console.log(dolphinsScore);
-console.log(koalasScore);
-console.log(dolphinsAverage);
-console.log(koalasAverage);
+// if(dolphinsAverage > koalasAverage && dolphinsAverage > 100){
+//     console.log('Dolphins win!');
+// } else if(koalasAverage > dolphinsAverage && koalasAverage > 100) {
+//     console.log('Koalas win!');
+// } else {
+//     console.log('No winner!');
+// }
 
-if(dolphinsAverage > koalasAverage && dolphinsAverage > 100){
-    console.log('Dolphins win!');
-} else if(koalasAverage > dolphinsAverage && koalasAverage > 100) {
-    console.log('Koalas win!');
-} else {
-    console.log('No winner!');
-}
+//Test data 2
+// const dolphinsScore = 97 + 112 + 101;
+// const koalasScore = 109 + 95 + 106;
+// const dolphinsAverage = dolphinsScore / 3;
+// const koalasAverage = koalasScore / 3;
+// console.log(dolphinsScore);
+// console.log(koalasScore);
+// console.log(dolphinsAverage);
+// console.log(koalasAverage);
+
+// if(dolphinsAverage > koalasAverage && dolphinsAverage > 100){
+//     console.log('Dolphins win!');
+// } else if(koalasAverage > dolphinsAverage && koalasAverage > 100) {
+//     console.log('Koalas win!');
+// } else if(dolphinsAverage === koalasAverage) {
+//     console.log('There is a tie!');
+// } 
+// else {
+//     console.log('No winner!');
+// }
