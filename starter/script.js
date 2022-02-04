@@ -345,3 +345,11 @@ console.log(dolphinsScore);
 console.log(koalasScore);
 console.log(dolphinsAverage);
 console.log(koalasAverage);
+
+if(dolphinsAverage > koalasAverage && dolphinsAverage > 100){
+    console.log('Dolphins win!');
+} else if(koalasAverage > dolphinsAverage && koalasAverage > 100) {
+    console.log('Koalas win!');
+} else {
+    console.log('No winner!');
+}
