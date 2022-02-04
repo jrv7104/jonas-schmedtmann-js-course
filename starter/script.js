@@ -335,3 +335,5 @@
 // } else {
 //     console.log('Sarah should not live in the US!');
 // }
+
+//Coding challenge 3
