@@ -337,3 +337,11 @@
 // }
 
 //Coding challenge 3
+const dolphinsScore = 96 + 108 + 89;
+const koalasScore = 88 + 91 + 110;
+const dolphinsAverage = dolphinsScore / 3;
+const koalasAverage = koalasScore / 3;
+console.log(dolphinsScore);
+console.log(koalasScore);
+console.log(dolphinsAverage);
+console.log(koalasAverage);
