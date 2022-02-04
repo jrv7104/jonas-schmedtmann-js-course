@@ -303,6 +303,7 @@ console.log(description);
 
 //boolean logic/logic operators
 const hasDriversLicense = true; // A
-const hasGoodVision = true; // B
+const hasGoodVision = false; // B
 
 console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
