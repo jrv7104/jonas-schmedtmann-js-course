@@ -395,36 +395,36 @@
 // }
 
 //Switch statement
-const day = "Thursday";
+// const day = "Tuesday";
 
-switch(day) {
-    case 'Monday': // day === 'Monday'
-        console.log('Plan course structure');
-        console.log('Go to coding meetup');
-        break;
-    case 'Tuesday':
-        console.log('Prepare theory videos');
-        break;
-    case 'Wednesday':
-    case 'Thursday':
-        console.log('Write code examples');
-        break;
-    case 'Friday':
-        console.log('Record videos');
-        break;
-    case 'Saturday':
-    case 'Sunday':
-            console.log('Enjoy the weekend');
-            break;
-    default:
-        console.log('Not a valid day');
-    }
+// switch(day) {
+//     case 'Monday': // day === 'Monday'
+//         console.log('Plan course structure');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'Tuesday':
+//         console.log('Prepare theory videos');
+//         break;
+//     case 'Wednesday':
+//     case 'Thursday':
+//         console.log('Write code examples');
+//         break;
+//     case 'Friday':
+//         console.log('Record videos');
+//         break;
+//     case 'Saturday':
+//     case 'Sunday':
+//             console.log('Enjoy the weekend');
+//             break;
+//     default:
+//         console.log('Not a valid day');
+//     }
 
-    if("Wednesday" || "Thursday"){
-        console.log("Write code examples");
-    } else if("Monday"){
-        console.log("Plan course structure");
-        console.log("Go to coding meetup");
-    } else {
-        console.log("Enjoy the weekend");
-    }
+//     if(day === "Wednesday" || day === "Thursday"){
+//         console.log("Write code examples");
+//     } else if(day === "Monday"){
+//         console.log("Plan course structure");
+//         console.log("Go to coding meetup");
+//     } else {
+//         console.log("Enjoy the weekend");
+//     }
