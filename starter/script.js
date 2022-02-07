@@ -470,3 +470,5 @@
 // console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
 
 //conditional (ternary) operator activity
+// const population = 300000000;
+// population >= 28000000 ? console.log('Portugals population is above average.') : console.log('Portugals pouplation is below average.');
