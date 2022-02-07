@@ -395,3 +395,4 @@
 // }
 
 //Switch statement
+const day = "Monday";
