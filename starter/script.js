@@ -396,3 +396,9 @@
 
 //Switch statement
 const day = "Monday";
+
+switch(day) {
+    case 'Monday': // day === 'Monday'
+        console.log('Plan course structure');
+        console.log('Go to coding meetup');
+}
