@@ -395,7 +395,7 @@
 // }
 
 //Switch statement
-const day = "Monday";
+const day = "Thursday";
 
 switch(day) {
     case 'Monday': // day === 'Monday'
@@ -418,4 +418,13 @@ switch(day) {
             break;
     default:
         console.log('Not a valid day');
+    }
+
+    if("Wednesday" || "Thursday"){
+        console.log("Write code examples");
+    } else if("Monday"){
+        console.log("Plan course structure");
+        console.log("Go to coding meetup");
+    } else {
+        console.log("Enjoy the weekend");
     }
